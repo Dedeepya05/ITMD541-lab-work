@@ -12,6 +12,7 @@
     flex: 1;
     text-align: center;
     margin: 5px;
+    font-size: 14px; 
 }
 
 #flex-section1 a.btn {
