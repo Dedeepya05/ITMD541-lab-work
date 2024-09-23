@@ -17,14 +17,14 @@
 #flex-section1 a.btn {
     display: block; 
     padding: 10px 20px;
-    background-color: #ccc;
+    background-color: #eb2323;
     color: #000;
     text-decoration: none;
     border-radius: 5px;
 }
 
 #flex-section1 a.btn:hover {
-    background-color: #f12020; 
+    background-color: #999; 
     color: #fff;
 }
 
