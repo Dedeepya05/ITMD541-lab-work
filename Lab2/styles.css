@@ -116,22 +116,27 @@
 /* Grid Part 2 */
 
 #grid-section2 .grid {
-    display: grid;                       
-    grid-template-columns: repeat(3, 1fr); 
-    grid-template-rows: repeat(3, 1fr);    
-    gap: 10px;                          
+    display: grid;                        
+    grid-template-columns: repeat(3, 1fr);  
+    grid-template-rows: repeat(3, 1fr);     
+    position: relative;                   
 }
 
-#grid-section2 .gridboxblue {
-    grid-column: 1 / 4;                 
-    grid-row: 1 / 3;                    
-    background-color: blue;             
+.gridboxblue {
+    grid-column: 2 / 3;                   
+    grid-row: 2 / 3;                      
+    background-color: blue;               
+    position: absolute;                   
+    top: 0;
+    left: 0;
 }
 
-#grid-section2 .gridboxred {
-    grid-column: 1 / 4;
-    grid-row: 2 / 3;                    
-    background-color: red;           
+.gridboxred {
+    grid-column: 2 / 4;                   
+    grid-row: 3 / 4;                      
+    background-color: red;               
+    position: relative;                  
+    z-index: -1;                         
 }
 
 /* end Grid Part 2 */
