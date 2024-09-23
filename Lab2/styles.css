@@ -11,14 +11,14 @@
 #flex-section1 li {
     flex: 1;
     text-align: center;
-    margin: 15px;
+    margin: 10px;
 }
 
 #flex-section1 a.btn {
     display: block; 
     padding: 10px 20px;
     background-color: #eb2323;
-    color: #000;
+    color: #fff;
     text-decoration: none;
     border-radius: 5px;
 }
