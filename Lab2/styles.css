@@ -23,7 +23,7 @@
 }
 
 #flex-section1 a.btn:hover {
-    background-color: #e92323; 
+    background-color: #999; 
     color: #fff;
 }
 
@@ -44,7 +44,7 @@
 #flex-section2 li {
     flex: 1;
     padding: 10px;
-    background-color: #bab7b7;
+    background-color: #c9c5c5;
     margin: 0px;
     text-align: center; 
     box-sizing: border-box;
