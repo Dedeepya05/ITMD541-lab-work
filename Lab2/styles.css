@@ -12,7 +12,6 @@
     flex: 1;
     text-align: center;
     margin: 15px;
-    background-color: #ee2121;
 }
 
 #flex-section1 a.btn {
@@ -25,7 +24,7 @@
 }
 
 #flex-section1 a.btn:hover {
-    background-color: #999; 
+    background-color: #f12020; 
     color: #fff;
 }
 
