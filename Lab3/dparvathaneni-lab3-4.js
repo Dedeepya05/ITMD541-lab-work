@@ -17,17 +17,18 @@ function celsiusToFahrenheit(celsius) {
 }
 
 // Test the function with three numerical values
-const testValue1 = 0;
-const testValue2 = 25;
-const testValue3 = -10;
+const testValue1 = 15;      // New test value
+const testValue2 = 30;      // New test value
+const testValue3 = -5;      // New test value
 
-celsiusToFahrenheit(testValue1);  // 0.0 Celsius = 32.0 Fahrenheit
-celsiusToFahrenheit(testValue2);  // 25.0 Celsius = 77.0 Fahrenheit
-celsiusToFahrenheit(testValue3);  // -10.0 Celsius = 14.0 Fahrenheit
+celsiusToFahrenheit(testValue1);  // 15.0 Celsius = 59.0 Fahrenheit
+celsiusToFahrenheit(testValue2);  // 30.0 Celsius = 86.0 Fahrenheit
+celsiusToFahrenheit(testValue3);  // -5.0 Celsius = 23.0 Fahrenheit
 
 // Test the function with string values
-const testStringValue1 = "100";
-const testStringValue2 = "37.5";
+const testStringValue1 = "50";
+const testStringValue2 = "15.5";
 
-celsiusToFahrenheit(testStringValue1);  // 100.0 Celsius = 212.0 Fahrenheit
-celsiusToFahrenheit(testStringValue2);  // 37.5 Celsius = 99.5 Fahrenheit
+celsiusToFahrenheit(testStringValue1);  // 50.0 Celsius = 122.0 Fahrenheit
+celsiusToFahrenheit(testStringValue2);  // 15.5 Celsius = 59.9 Fahrenheit
+

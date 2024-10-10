@@ -9,20 +9,20 @@ function introducePeople(peopleArray) {
 
 // Test case 1: An array of 5 people
 const peopleTest1 = [
-    {name: 'Alice', age: 25, city: 'Chicago'},
-    {name: 'Bob', age: 30, city: 'New York'},
-    {name: 'Charlie', age: 22, city: 'San Francisco'},
-    {name: 'Diana', age: 28, city: 'Los Angeles'},
-    {name: 'Eve', age: 35, city: 'Miami'}
+    {name: 'Aarav', age: 23, city: 'Mumbai'},
+    {name: 'Vihaan', age: 29, city: 'Bengaluru'},
+    {name: 'Reva', age: 21, city: 'Delhi'},
+    {name: 'Saanvi', age: 27, city: 'Hyderabad'},
+    {name: 'Kabir', age: 34, city: 'Chennai'}
 ];
 
-// Test case 2: Another array of 5 people
+// Test case 2: Another array of 5 people from India
 const peopleTest2 = [
-    {name: 'Frank', age: 40, city: 'Seattle'},
-    {name: 'Grace', age: 18, city: 'Boston'},
-    {name: 'Heidi', age: 27, city: 'Austin'},
-    {name: 'Ivan', age: 33, city: 'Denver'},
-    {name: 'Judy', age: 21, city: 'Dallas'}
+    {name: 'Anaya', age: 19, city: 'Pune'},
+    {name: 'Rohan', age: 32, city: 'Ahmedabad'},
+    {name: 'Tara', age: 24, city: 'Kolkata'},
+    {name: 'Dev', age: 28, city: 'Jaipur'},
+    {name: 'Meera', age: 26, city: 'Gurgaon'}
 ];
 
 // Output the sorted introductions for both test cases

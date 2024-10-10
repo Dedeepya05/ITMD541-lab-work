@@ -25,5 +25,5 @@ const testArray1 = [2, 5, 23, 6, 9, 4, 30, 1];
 minMaxAverage(testArray1);
 
 // Test the function with a different array
-const testArray2 = [10, 20, 30, 40, 50];
+const testArray2 = [50, 70, 90, 110, 130];
 minMaxAverage(testArray2);

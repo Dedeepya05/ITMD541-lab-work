@@ -21,11 +21,11 @@ function countVowels(inputString) {
 }
 
 // Test the function with three words and log the results
-const testWord1 = "Hello";
-console.log(`word: ${testWord1}, vowels: ${countVowels(testWord1)}`);
+const testWord1 = "Education";
+console.log(`${testWord1}: ${countVowels(testWord1)} vowels`);
 
-const testWord2 = "JavaScript";
-console.log(`word: ${testWord2}, vowels: ${countVowels(testWord2)}`);
+const testWord2 = "Programming";
+console.log(`${testWord2}: ${countVowels(testWord2)} vowels`);
 
-const testWord3 = "Programming";
-console.log(`word: ${testWord3}, vowels: ${countVowels(testWord3)}`);
+const testWord3 = "Developer";
+console.log(`${testWord3}: ${countVowels(testWord3)} vowels`);
